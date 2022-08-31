@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		B418FC1E28BF22BB0055A99F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418FC1D28BF22BB0055A99F /* AppDelegate.swift */; };
 		B418FC2028BF22BB0055A99F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418FC1F28BF22BB0055A99F /* SceneDelegate.swift */; };
-		B418FC2228BF22BC0055A99F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418FC2128BF22BC0055A99F /* ViewController.swift */; };
 		B418FC2528BF22BC0055A99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B418FC2328BF22BC0055A99F /* Main.storyboard */; };
 		B418FC2728BF22BC0055A99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B418FC2628BF22BC0055A99F /* Assets.xcassets */; };
 		B418FC2A28BF22BC0055A99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B418FC2828BF22BC0055A99F /* LaunchScreen.storyboard */; };
+		B418FC3228BF23200055A99F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418FC3128BF23200055A99F /* LoginViewController.swift */; };
+		B4C4DFCE28BF29F200A001FA /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4DFCD28BF29F200A001FA /* EnterEmailViewController.swift */; };
+		B4C4DFD028BF2F1200A001FA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4DFCF28BF2F1200A001FA /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B418FC1A28BF22BB0055A99F /* LoginSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B418FC1D28BF22BB0055A99F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B418FC1F28BF22BB0055A99F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B418FC2128BF22BC0055A99F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B418FC2428BF22BC0055A99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B418FC2628BF22BC0055A99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B418FC2928BF22BC0055A99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B418FC2B28BF22BC0055A99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B418FC3128BF23200055A99F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B4C4DFCD28BF29F200A001FA /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
+		B4C4DFCF28BF2F1200A001FA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				B418FC1D28BF22BB0055A99F /* AppDelegate.swift */,
 				B418FC1F28BF22BB0055A99F /* SceneDelegate.swift */,
-				B418FC2128BF22BC0055A99F /* ViewController.swift */,
 				B418FC2328BF22BC0055A99F /* Main.storyboard */,
 				B418FC2628BF22BC0055A99F /* Assets.xcassets */,
 				B418FC2828BF22BC0055A99F /* LaunchScreen.storyboard */,
 				B418FC2B28BF22BC0055A99F /* Info.plist */,
+				B418FC3128BF23200055A99F /* LoginViewController.swift */,
+				B4C4DFCD28BF29F200A001FA /* EnterEmailViewController.swift */,
+				B4C4DFCF28BF2F1200A001FA /* MainViewController.swift */,
 			);
 			path = LoginSample;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B418FC2228BF22BC0055A99F /* ViewController.swift in Sources */,
+				B418FC3228BF23200055A99F /* LoginViewController.swift in Sources */,
 				B418FC1E28BF22BB0055A99F /* AppDelegate.swift in Sources */,
+				B4C4DFCE28BF29F200A001FA /* EnterEmailViewController.swift in Sources */,
 				B418FC2028BF22BB0055A99F /* SceneDelegate.swift in Sources */,
+				B4C4DFD028BF2F1200A001FA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
