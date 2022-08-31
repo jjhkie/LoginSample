@@ -25,6 +25,7 @@ class LoginViewController: UIViewController{
     
     //구글 로그인 Action
     @IBAction func googleLoginButtonTapped(_ sender: UIButton) {
+        print("aaa")
     }
     
     //애플 로그인 Action

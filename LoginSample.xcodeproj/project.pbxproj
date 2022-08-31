@@ -16,8 +16,8 @@
 		B418FC3228BF23200055A99F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418FC3128BF23200055A99F /* LoginViewController.swift */; };
 		B4C4DFCE28BF29F200A001FA /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4DFCD28BF29F200A001FA /* EnterEmailViewController.swift */; };
 		B4C4DFD028BF2F1200A001FA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4DFCF28BF2F1200A001FA /* MainViewController.swift */; };
-		B4C4DFD228BF313500A001FA /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4C4DFD128BF313500A001FA /* GoogleService-Info-2.plist */; };
 		B4C4DFD528BF324900A001FA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B4C4DFD428BF324900A001FA /* FirebaseAuth */; };
+		B4C4DFD728BF358600A001FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4C4DFD628BF358600A001FA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		B418FC3128BF23200055A99F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B4C4DFCD28BF29F200A001FA /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
 		B4C4DFCF28BF2F1200A001FA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		B4C4DFD128BF313500A001FA /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		B4C4DFD628BF358600A001FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F5172D5D05E13981E70E32C8 /* Pods-LoginSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSample.debug.xcconfig"; path = "Target Support Files/Pods-LoginSample/Pods-LoginSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +79,7 @@
 		B418FC1C28BF22BB0055A99F /* LoginSample */ = {
 			isa = PBXGroup;
 			children = (
-				B4C4DFD128BF313500A001FA /* GoogleService-Info-2.plist */,
+				B4C4DFD628BF358600A001FA /* GoogleService-Info.plist */,
 				B418FC1D28BF22BB0055A99F /* AppDelegate.swift */,
 				B418FC1F28BF22BB0055A99F /* SceneDelegate.swift */,
 				B418FC2328BF22BC0055A99F /* Main.storyboard */,
@@ -99,7 +99,6 @@
 				F5172D5D05E13981E70E32C8 /* Pods-LoginSample.debug.xcconfig */,
 				5C937D33C516CE47B84D7D3C /* Pods-LoginSample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -169,8 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B418FC2A28BF22BC0055A99F /* LaunchScreen.storyboard in Resources */,
+				B4C4DFD728BF358600A001FA /* GoogleService-Info.plist in Resources */,
 				B418FC2728BF22BC0055A99F /* Assets.xcassets in Resources */,
-				B4C4DFD228BF313500A001FA /* GoogleService-Info-2.plist in Resources */,
 				B418FC2528BF22BC0055A99F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -191,7 +191,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginButtonTapped:" destination="xUV-oz-2hR" eventType="touchUpInside" id="ovn-bV-9aH"/>
+                                    <action selector="loginButtonTap:" destination="xUV-oz-2hR" eventType="touchUpInside" id="XyR-vG-V2U"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -221,7 +221,7 @@
         <!--Main View Controller-->
         <scene sceneID="Fdl-f9-z8U">
             <objects>
-                <viewController id="agk-pA-xaX" customClass="MainViewController" customModule="LoginSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="agk-pA-xaX" customClass="MainViewController" customModule="LoginSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7ty-ul-yiu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
