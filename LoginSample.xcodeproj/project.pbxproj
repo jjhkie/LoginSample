@@ -17,7 +17,7 @@
 		B4C4DFCE28BF29F200A001FA /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4DFCD28BF29F200A001FA /* EnterEmailViewController.swift */; };
 		B4C4DFD028BF2F1200A001FA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C4DFCF28BF2F1200A001FA /* MainViewController.swift */; };
 		B4C4DFD528BF324900A001FA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B4C4DFD428BF324900A001FA /* FirebaseAuth */; };
-		B4C4DFD728BF358600A001FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4C4DFD628BF358600A001FA /* GoogleService-Info.plist */; };
+		B90629B228BF7E320031C682 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B90629B128BF7E320031C682 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		B418FC3128BF23200055A99F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B4C4DFCD28BF29F200A001FA /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
 		B4C4DFCF28BF2F1200A001FA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		B4C4DFD628BF358600A001FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B90629B128BF7E320031C682 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F5172D5D05E13981E70E32C8 /* Pods-LoginSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSample.debug.xcconfig"; path = "Target Support Files/Pods-LoginSample/Pods-LoginSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +79,7 @@
 		B418FC1C28BF22BB0055A99F /* LoginSample */ = {
 			isa = PBXGroup;
 			children = (
-				B4C4DFD628BF358600A001FA /* GoogleService-Info.plist */,
+				B90629B128BF7E320031C682 /* GoogleService-Info.plist */,
 				B418FC1D28BF22BB0055A99F /* AppDelegate.swift */,
 				B418FC1F28BF22BB0055A99F /* SceneDelegate.swift */,
 				B418FC2328BF22BC0055A99F /* Main.storyboard */,
@@ -113,6 +113,7 @@
 				B418FC1628BF22BB0055A99F /* Sources */,
 				B418FC1728BF22BB0055A99F /* Frameworks */,
 				B418FC1828BF22BB0055A99F /* Resources */,
+				946D29AC8F26988C01BDE558 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B418FC2A28BF22BC0055A99F /* LaunchScreen.storyboard in Resources */,
-				B4C4DFD728BF358600A001FA /* GoogleService-Info.plist in Resources */,
+				B90629B228BF7E320031C682 /* GoogleService-Info.plist in Resources */,
 				B418FC2728BF22BC0055A99F /* Assets.xcassets in Resources */,
 				B418FC2528BF22BC0055A99F /* Main.storyboard in Resources */,
 			);
@@ -197,6 +198,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		946D29AC8F26988C01BDE558 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginSample/Pods-LoginSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginSample/Pods-LoginSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginSample/Pods-LoginSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
