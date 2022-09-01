@@ -5,12 +5,15 @@
 firebaseCore [ https://firebase.google.com/docs/auth/ios/start?hl=ko&authuser=0 ]
 
 firebaseAuth
+
 GoogleSignIn
 
-  -> File - Add Packages..    Add [ https://github.com/firebase/firebase-ios-sdk ]
+   -> File - Add Packages..    Add [ https://github.com/firebase/firebase-ios-sdk ]
+
 
 
 [ Point ]
+
 
 Google Login 연동할 때, 필요한 설정 
   
@@ -20,6 +23,7 @@ Google Login 연동할 때, 필요한 설정
   2. Info - URL Types 에 + 를 해준 후 URL Schemes 에 복사한 값으 넣어준다.
 
 
+
 Google Login 에 필요한 라이브러리 GoogleSignIn 은 따로 Podfile 에 추가해줘야 한다.
 
   1. Podfile > Add pod 'GoogleSignIn'
@@ -27,15 +31,19 @@ Google Login 에 필요한 라이브러리 GoogleSignIn 은 따로 Podfile 에 �
   2. Project Terminal - pod install 선언
   
 
+
+
 [ Add ]
 
 - 생명주기 정리 
 
- error.localizedDescription
+- error.localizedDescription
 
 - Email Login
   > auth().createUser
+
   > auth().signIn
+
   > auth().signOut()
   
 - textFieldShouldReturn
