@@ -8,6 +8,7 @@ GoogleSignIn
 
   -> File - Add Packages..    Add [ https://github.com/firebase/firebase-ios-sdk ]
 
+
 [ Point ]
 
 Google Login 연동할 때, 필요한 설정 
@@ -24,7 +25,6 @@ Google Login 에 필요한 라이브러리 GoogleSignIn 은 따로 Podfile 에 �
 
   2. Project Terminal - pod install 선언
   
-
 
 [ Add ]
 
