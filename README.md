@@ -35,9 +35,11 @@
 
 ## [ Add ]
 
-- 생명주기 정리 [ https://jjhkie.tistory.com/entry/lifecycle-Nabee ]
+- 생명주기 정리
+    [ https://jjhkie.tistory.com/entry/lifecycle-Nabee ]
 
-- error.localizedDescription [ https://developer.apple.com/documentation/foundation/nserror/1414418-localizeddescription ]
+- error.localizedDescription 
+   [ https://developer.apple.com/documentation/foundation/nserror/1414418-localizeddescription ]
 
 
 - Email Login
@@ -50,6 +52,7 @@
 - textFieldShouldReturn
 
 - endEditing( bool ) 
+   [ https://jjhkie.tistory.com/entry/keyboardDown-Nabee ]
 
 - Google Login
   > https://firebase.google.com/docs/auth/ios/google-signin?hl=ko&authuser=0 
