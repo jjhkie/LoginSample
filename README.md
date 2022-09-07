@@ -1,21 +1,21 @@
 # [ Email & Google 로그인 기능 구현  ]
 
-[ 사용한 기술 ]
+## [ 사용한 기술 ]
 
-firebaseCore [ https://firebase.google.com/docs/auth/ios/start?hl=ko&authuser=0 ]
+- firebaseCore [ https://firebase.google.com/docs/auth/ios/start?hl=ko&authuser=0 ]
 
-firebaseAuth
+- firebaseAuth
 
-GoogleSignIn
+- GoogleSignIn
 
    -> File - Add Packages..    Add [ https://github.com/firebase/firebase-ios-sdk ]
 
 
 
-[ Point ]
+## [ Point ]
 
 
-Google Login 연동할 때, 필요한 설정 
+- Google Login 연동할 때, 필요한 설정 
   
   1. Firebase 연동할 때 설치한 GoogleService-Info 파일을 열어보면 
      REVERSED_CLIENT_ID  의 Value 값을 복사한다.
@@ -24,7 +24,7 @@ Google Login 연동할 때, 필요한 설정
 
 
 
-Google Login 에 필요한 라이브러리 GoogleSignIn 은 따로 Podfile 에 추가해줘야 한다.
+- Google Login 에 필요한 라이브러리 GoogleSignIn 은 따로 Podfile 에 추가해줘야 한다.
 
   1. Podfile > Add pod 'GoogleSignIn'
 
@@ -33,9 +33,9 @@ Google Login 에 필요한 라이브러리 GoogleSignIn 은 따로 Podfile 에 �
 
 
 
-[ Add ]
+## [ Add ]
 
-- 생명주기 정리 
+- 생명주기 정리 [ https://jjhkie.tistory.com/entry/lifecycle-Nabee ]
 
 - error.localizedDescription
 
