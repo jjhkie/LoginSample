@@ -37,7 +37,8 @@
 
 - 생명주기 정리 [ https://jjhkie.tistory.com/entry/lifecycle-Nabee ]
 
-- error.localizedDescription
+- error.localizedDescription [ https://developer.apple.com/documentation/foundation/nserror/1414418-localizeddescription ]
+
 
 - Email Login
   > auth().createUser
